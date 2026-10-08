@@ -1,0 +1,14 @@
+SAVED FORCING <TEST_WORKDIR>/new/forcing_rotational.2021.01.nc
+heat COMPATIBILITY=4.476e-18
+vort COMPATIBILITY=6.365e-35
+total_independent COMPATIBILITY=3.209e-18
+DIAGNOSTICS {"heat": {"compatibility_relative": 4.476016605468778e-18, "original_Galerkin_residual_relative": 1.9679858640940145e-16, "gauge_lagrange_multiplier": 1.2928552555926274e-15, "forcing_mean_removed": false}, "vort": {"compatibility_relative": 6.364705423905789e-35, "original_Galerkin_residual_relative": 5.543560602594341e-15, "gauge_lagrange_multiplier": 4.282910664129344e-34, "forcing_mean_removed": false}, "total_independent": {"compatibility_relative": 3.2091000510742e-18, "original_Galerkin_residual_relative": 1.9678836937126882e-16, "gauge_lagrange_multiplier": 9.26966461240898e-16, "forcing_mean_removed": false}}
+ADDITIVITY=3.347e-15; SAVED <TEST_WORKDIR>/new/Ztend.2021.01.nc
+SAVED FORCING <TEST_WORKDIR>/old/forcing_rotational.2021.01.nc
+heat COMPATIBILITY=4.476e-18
+vort COMPATIBILITY=6.365e-35
+total_independent COMPATIBILITY=3.209e-18
+DIAGNOSTICS {"heat": {"compatibility_relative": 4.476016605468778e-18, "original_Galerkin_residual_relative": 1.9679858640940145e-16, "gauge_lagrange_multiplier": 1.2928552555926274e-15, "forcing_mean_removed": false}, "vort": {"compatibility_relative": 6.364705423905789e-35, "original_Galerkin_residual_relative": 5.543560602594341e-15, "gauge_lagrange_multiplier": 4.282910664129344e-34, "forcing_mean_removed": false}, "total_independent": {"compatibility_relative": 3.2091000510742e-18, "original_Galerkin_residual_relative": 1.9678836937126882e-16, "gauge_lagrange_multiplier": 9.26966461240898e-16, "forcing_mean_removed": false}}
+ADDITIVITY=3.347e-15; SAVED <TEST_WORKDIR>/old/Ztend.2021.01.nc
+PASS: split cached-term inversion output exactly equals original solver
+PASS: all five command-line entry points

@@ -1,0 +1,23 @@
+nohup: 忽略输入
+BACKEND_METRICS low_degree {"truncation": 8, "wind_relative_max": 7.018098230560099e-07, "curl_relative_max": 6.264511441510798e-07, "curl_relative_area_RMS": 2.2985439287156014e-07, "curl_roundoff_bound": 5.179787474834438e-06, "max_error_latitude": 23.031965314380145}
+BACKEND_METRICS full_band {"truncation": 179, "wind_relative_max": 9.651246852371287e-07, "curl_relative_max": 1.7761188075400707e-05, "curl_relative_area_RMS": 4.2497623145257295e-06, "curl_roundoff_bound": 3.331598822890854e-05, "max_error_latitude": 45.06253138970187}
+PASS: installed spherical backend; low-degree sign/normalization and full-band precision bound
+FORCING 100hPa div_zeta_mean=7.462e-26; S_vort_mean=4.341e-31
+FORCING 150hPa div_zeta_mean=-7.603e-26; S_vort_mean=1.920e-30
+FORCING 200hPa div_zeta_mean=-2.322e-27; S_vort_mean=1.698e-30
+FORCING 250hPa div_zeta_mean=-4.241e-25; S_vort_mean=6.368e-30
+FORCING 300hPa div_zeta_mean=-1.788e-25; S_vort_mean=3.694e-30
+FORCING 400hPa div_zeta_mean=4.050e-25; S_vort_mean=-9.757e-30
+FORCING 500hPa div_zeta_mean=4.535e-25; S_vort_mean=-8.520e-30
+FORCING 600hPa div_zeta_mean=8.463e-25; S_vort_mean=-1.402e-30
+FORCING 700hPa div_zeta_mean=5.380e-25; S_vort_mean=5.152e-30
+FORCING 850hPa div_zeta_mean=1.036e-25; S_vort_mean=7.967e-30
+FORCING 925hPa div_zeta_mean=-4.829e-26; S_vort_mean=1.021e-29
+FORCING 975hPa div_zeta_mean=-1.711e-24; S_vort_mean=3.571e-29
+FORCING 1000hPa div_zeta_mean=-2.392e-24; S_vort_mean=4.592e-29
+SAVED FORCING <OUTPUT>/forcing_rotational.2021.01.nc
+heat COMPATIBILITY=7.161e-19
+vort COMPATIBILITY=1.347e-16
+total_independent COMPATIBILITY=1.369e-16
+DIAGNOSTICS {"heat": {"compatibility_relative": 7.161170154463916e-19, "original_Galerkin_residual_relative": 1.3768636394719009e-14, "gauge_lagrange_multiplier": 3.705361983801604e-14, "forcing_mean_removed": false}, "vort": {"compatibility_relative": 1.3474760248348385e-16, "original_Galerkin_residual_relative": 1.565768273007845e-15, "gauge_lagrange_multiplier": 1.4779333795590191e-12, "forcing_mean_removed": false}, "total_independent": {"compatibility_relative": 1.3694731992382781e-16, "original_Galerkin_residual_relative": 1.4395813540671432e-15, "gauge_lagrange_multiplier": 1.4495803650350173e-12, "forcing_mean_removed": false}}
+ADDITIVITY=2.856e-14; SAVED <OUTPUT>/Ztend.2021.01.nc
