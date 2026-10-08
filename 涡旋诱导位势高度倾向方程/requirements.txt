@@ -1,0 +1,4 @@
+numpy
+scipy
+netCDF4
+# 另需pyspharm提供spharm；第一阶段另需ncl命令，不通过此pip清单安装。
